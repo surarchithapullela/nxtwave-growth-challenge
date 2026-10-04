@@ -162,7 +162,7 @@ Use my referral code:
 ${code}
 
 Register here:
-YOUR_WEBSITE_LINK`;
+https://surarchithapulella.github.io/nxtwave-growth-challenge/`;
 
 
     if (navigator.share) {
