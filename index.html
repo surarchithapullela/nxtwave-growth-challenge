@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Build Your First AI Project</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <div class="container">
+
+            <p class="tag">FREE AI WORKSHOP • 60 MINUTES</p>
+
+            <h1>
+                Build Your First AI Project
+                in 60 Minutes
+            </h1>
+
+            <p class="subtitle">
+                Learn by building, not just watching.
+                Create your first AI project and leave with
+                something you can showcase.
+            </p>
+
+            <button onclick="scrollToRegister()" class="primary-btn">
+                Register Free
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- WHY JOIN -->
+    <section class="section">
+
+        <div class="container">
+
+            <h2>Why should you join?</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Build Something</h3>
+                    <p>
+                        Build a simple AI project instead of
+                        spending another hour only watching tutorials.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>60 Minutes</h3>
+                    <p>
+                        A short, practical session designed
+                        for students with limited time.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>Useful for Placements</h3>
+                    <p>
+                        Get a project experience that you can
+                        discuss in your portfolio or interview.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REGISTRATION -->
+    <section class="section register-section" id="register">
+
+        <div class="container">
+
+            <div class="register-box">
+
+                <h2>Register for the Workshop</h2>
+
+                <p>
+                    Enter your details below.
+                </p>
+
+                <form id="registrationForm">
+
+                    <input
+                        type="text"
+                        id="name"
+                        placeholder="Your Name"
+                        required
+                    >
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Email Address"
+                        required
+                    >
+
+                    <input
+                        type="text"
+                        id="college"
+                        placeholder="College Name"
+                        required
+                    >
+
+                    <select id="source">
+
+                        <option value="">
+                            How did you hear about this?
+                        </option>
+
+                        <option value="College Club">
+                            College Club
+                        </option>
+
+                        <option value="WhatsApp">
+                            WhatsApp
+                        </option>
+
+                        <option value="Friend">
+                            Friend
+                        </option>
+
+                        <option value="Student Community">
+                            Student Community
+                        </option>
+
+                        <option value="Instagram">
+                            Instagram
+                        </option>
+
+                    </select>
+
+                    <input
+                        type="text"
+                        id="referral"
+                        placeholder="Referral Code (optional)"
+                    >
+
+                    <button
+                        type="submit"
+                        class="primary-btn"
+                    >
+                        Register Now
+                    </button>
+
+                </form>
+
+                <div id="successMessage"></div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REFERRAL -->
+    <section class="section">
+
+        <div class="container">
+
+            <h2>Invite Your Friends</h2>
+
+            <p>
+                After registration, share your referral code
+                with friends and invite them to join.
+            </p>
+
+            <div class="referral-box">
+
+                <h3>Your Referral Code</h3>
+
+                <div id="referralCode">
+                    Register first
+                </div>
+
+                <button
+                    onclick="shareReferral()"
+                    class="secondary-btn"
+                >
+                    Share With Friends
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GROWTH METRICS -->
+    <section class="section metrics">
+
+        <div class="container">
+
+            <h2>Campaign Progress</h2>
+
+            <div class="metric-container">
+
+                <div class="metric-card">
+
+                    <h3 id="registrationCount">
+                        0
+                    </h3>
+
+                    <p>
+                        Registrations
+                    </p>
+
+                </div>
+
+                <div class="metric-card">
+
+                    <h3>
+                        500
+                    </h3>
+
+                    <p>
+                        Target
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            Built as a growth experiment.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
